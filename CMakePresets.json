@@ -1,0 +1,29 @@
+﻿{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 21,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "mingw-debug",
+      "displayName": "MinGW Debug",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build-mingw",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_MAKE_PROGRAM": "D:/QT/Tools/Ninja/ninja.exe",
+        "CMAKE_CXX_COMPILER": "D:/QT/Tools/mingw1310_64/bin/g++.exe",
+        "CMAKE_PREFIX_PATH": "D:/QT/6.11.0/mingw_64",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "mingw-debug",
+      "configurePreset": "mingw-debug"
+    }
+  ]
+}

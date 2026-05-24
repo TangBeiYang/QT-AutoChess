@@ -1,0 +1,53 @@
+---
+# Project A C++17 Code Style Configuration
+Language: Cpp
+Standard: c++17
+
+# Indentation
+IndentWidth: 2
+UseTab: Never
+TabWidth: 2
+
+# Line Length
+ColumnLimit: 100
+
+# Braces
+BreakBeforeBraces: Allman
+AllowShortBlocksOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: None
+
+# Spacing
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesInAngles: false
+SpaceAfterCStyleCast: false
+SpaceBeforeSquareBrackets: false
+
+# Alignment
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignOperands: true
+AlignTrailingComments: true
+
+# Pointer/Reference
+DereferenceBindsToType: false
+PointerBindsToType: true
+
+# Include Organization
+IncludeBlocks: Preserve
+SortIncludes: true
+
+# Line Breaking
+BreakConstructorInitializers: BeforeColon
+BreakInheritanceList: BeforeColon
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+
+# Penalty
+PenaltyBreakAssignment: 100
+PenaltyBreakBeforeFirstCallParameter: 100
+PenaltyReturnTypeOnItsOwnLine: 100
+
+# Other
+ReflowComments: true
+FixNamespaceComments: true

@@ -10,5 +10,3 @@ int main(int argc, char *argv[]){
 
     return app.exec();
 }
-/*cmake --build build-mingw
-S*/

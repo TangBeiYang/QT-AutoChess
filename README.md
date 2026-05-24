@@ -1,5 +1,7 @@
 # Project A — Synera: Auto Chess
 
+[简体中文](./README_ch.md) | English
+
 A Qt Widgets based auto chess game developed with C++17. The project features real-time combat, equipment crafting, synergy systems, economy management, and JSON save/load support.
 
 ---
@@ -371,6 +373,78 @@ Defeat damage = base damage + surviving enemy star damage.
 ---
 
 # GUI & Interface
+
+## Main Menu
+
+```text
+Main Menu
+├─ New Game
+│   └─ Difficulty Selection
+│       ├─ Speed Mode
+│       ├─ Standard Mode
+│       ├─ Hard Mode
+│       └─ Back
+├─ Load Game
+└─ Exit
+```
+
+## In-Game Controls
+
+| Action | Function |
+|---|---|
+| Left click unit | View unit stats and equipped items |
+| Right click unit | View unit skill information |
+| Left drag unit | Change board positioning |
+| Left drag equipment | Equip items onto units |
+| Right click equipment | Unequip equipment |
+| Left click shop unit | Purchase unit |
+| Left click shop equipment | Purchase equipment |
+
+## In-Game UI
+
+* Round display
+* Shop interface
+* Equipment inventory
+* Synergy display
+* Unit information panel
+* Skill information window
+* Countdown timer
+* Drag-and-drop equipment
+* Right-click unequip
+
+---
+
+# Screenshots
+
+## Main Menu
+
+![Main Menu](assets/screenshots/主界面.png)
+
+## Difficulty Selection
+
+![Difficulty Selection](assets/screenshots/难度选择界面.png)
+
+## Preparation Phase
+
+![Preparation 1](assets/screenshots/准备界面1.png)
+
+![Preparation 2](assets/screenshots/准备界面2.png)
+
+## Synergy Overview
+
+![Synergy](assets/screenshots/羁绊查看.png)
+
+## Unit Information
+
+![Unit Information](assets/screenshots/单位信息查看.png)
+
+## Skill Information
+
+![Skill Information](assets/screenshots/技能查看界面.png)
+
+## Save Interface
+
+![Save Interface](assets/screenshots/存档界面.png)
 
 ## Main Menu
 
